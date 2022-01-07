@@ -26,5 +26,15 @@ module.exports = {
   rules: {
     "no-console": "error",
     "prettier/prettier": "error",
+    "no-empty-pattern": "off",
+    "jest/no-done-callback": "off",
+    "@typescript-eslint/ban-types": [
+      "error",
+      {
+        types: {
+          "{}": false,
+        },
+      },
+    ],
   },
 };
