@@ -5,6 +5,7 @@
     "test": "jest",
     "lint": "eslint .",
     "format": "eslint . --fix",
+    "prepare": "yarn build",
     "prepublishOnly": "yarn test && yarn lint",
     "preversion": "yarn lint",
     "version": "yarn format && git add -A src",
