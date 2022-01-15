@@ -27,10 +27,8 @@ export interface BuilderParams {
   baseURL: string;
 }
 
-type Test = typeof base;
-
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-export function delight(base: Test) {
+export function delight<T extends typeof base>(base: T) {
   const dump = _.memoize(async (id: string, testInfo: TestInfo) => {
     const { metadata } = testInfo.project;
     await metadata.dump(id, testInfo.workerIndex);
