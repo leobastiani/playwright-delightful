@@ -1,5 +1,3 @@
-import HelloWorld from ".";
-
 it("HelloWorld", () => {
-  expect(HelloWorld).toEqual("Hello World");
+  expect("Hello World").toEqual("Hello World");
 });

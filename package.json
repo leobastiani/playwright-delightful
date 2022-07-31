@@ -22,7 +22,7 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "dependencies": {
-    "fix-your-tortures": "https://github.com/leobastiani/fix-your-tortures",
+    "fix-your-tortures": "^1.0.0",
     "object-hash": "^2.2.0"
   },
   "devDependencies": {
@@ -46,6 +46,6 @@
     "typescript": "^4.5.4"
   },
   "peerDependencies": {
-    "@playwright/test": "^1.17.2"
+    "@playwright/test": "^1.24.2"
   }
 }
