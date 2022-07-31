@@ -5,7 +5,7 @@ import {
   Request,
   test as base,
   TestInfo,
-  WorkerInfo
+  WorkerInfo,
 } from "@playwright/test";
 import {
   FixtureCache,
@@ -13,7 +13,7 @@ import {
   FixtureGetter,
   FixtureGraphRequester,
   FixtureIndexCounter,
-  FixtureRequester
+  FixtureRequester,
 } from "fix-your-tortures";
 import _ from "lodash";
 import { FixtureDelightful } from "./FixtureDelightful";
